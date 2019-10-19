@@ -1,0 +1,20 @@
+{
+  "_generated": "cenas bro",
+  "description": "Switch touchscreen on and off",
+  "name": "Touchscreen",
+  "shell-version": [
+    "3.14",
+    "3.16",
+    "3.18",
+    "3.20",
+    "3.22",
+    "3.24",
+    "3.26",
+    "3.28",
+    "3.30",
+    "3.32"
+  ],
+  "url": "",
+  "uuid": "touchscreen@on.off",
+  "version": 7
+}
