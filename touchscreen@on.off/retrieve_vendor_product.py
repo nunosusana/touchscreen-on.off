@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 import os
-os.system("sh /home/ns/.local/share/gnome-shell/extensions/touchscreen@on.off/find_touchscreen.sh")
+os.system("sh /usr/tmp/touchscreen@on.off/find_touchscreen.sh")
 
-vp = open("/home/ns/.local/share/gnome-shell/extensions/touchscreen@on.off/vendor_product.txt","r")
-vendor = open("/home/ns/.local/share/gnome-shell/extensions/touchscreen@on.off/vendor.txt","w")
-product = open("/home/ns/.local/share/gnome-shell/extensions/touchscreen@on.off/product.txt","w")
+vp = open("/usr/tmp/touchscreen@on.off/vendor_product.txt","r")
+vendor = open("/usr/tmp/touchscreen@on.off/vendor.txt","w")
+product = open("/usr/tmp/touchscreen@on.off/product.txt","w")
 for line in vp:
 	list = line.split(" ")
 	for cenas in list:

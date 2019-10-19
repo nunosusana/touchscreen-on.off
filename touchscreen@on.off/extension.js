@@ -23,6 +23,9 @@ function _enable_touchscreen() {
 }
 
 function init() {
+	Util.spawn(['/bin/bash', '-c', "mkdir /usr/tmp/touchscreen@on.off"]);
+	Util.spawn(['/bin/bash', '-c', "cp /home/$USER/.local/share/gnome-shell/extensions/touchscreen@on.off/toggle_touchscreen.sh /usr/tmp/touchscreen@on.off/"]);
+	Util.spawn(['/bin/bash', '-c', "cp /home/$USER/.local/share/gnome-shell/extensions/touchscreen@on.off/find_touchscreen.sh /usr/tmp/touchscreen@on.off/"]);
     Util.spawn(['/bin/bash', '-c', "python /home/$USER/.local/share/gnome-shell/extensions/touchscreen@on.off/retrieve_vendor_product.py"]);
 	Util.spawn(['/bin/bash', '-c', "sudo python /home/$USER/.local/share/gnome-shell/extensions/touchscreen@on.off/activate.py"]);
 	enabled=true;

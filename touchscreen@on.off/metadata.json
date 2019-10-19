@@ -1,6 +1,6 @@
 {
-  "_generated": "cenas bro",
-  "description": "Switch touchscreen on and off",
+  "_generated": "",
+  "description": "Enable and disable touchscreenf",
   "name": "Touchscreen",
   "shell-version": [
     "3.14",
@@ -14,7 +14,7 @@
     "3.30",
     "3.32"
   ],
-  "url": "",
+  "url": "https://github.com/nunosusana/touchscreen-on.off",
   "uuid": "touchscreen@on.off",
   "version": 7
 }
